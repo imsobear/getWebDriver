@@ -1,4 +1,3 @@
-var rimraf = require('rimraf');
 var fs = require('fs');
 var should = require('should');
 
