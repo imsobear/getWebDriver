@@ -1,0 +1,24 @@
+{
+  "name": "get-webdriver",
+  "version": "0.0.1",
+  "description": "download and unpacker webdriver from cnpm mirros",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/.bin/_mocha test/**/*.test.js --reporter spec",
+    "cov": "node ./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha -- test/**/*.test.js --reporter spec",
+    "ci": "npm run cov"
+  },
+  "author": "sobear.me@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "istanbul": "^0.4.1",
+    "mocha": "^2.3.4",
+    "should": "^7.1.1"
+  },
+  "dependencies": {
+    "bluebird": "^3.0.6",
+    "chalk": "^1.1.1",
+    "download": "^4.4.3",
+    "unzip": "^0.1.11"
+  }
+}
